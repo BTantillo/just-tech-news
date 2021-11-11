@@ -27,7 +27,7 @@ Comment.init(
         }
     },
     comment_text: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.STRING,
         allowNull: false,
         validate: {
             // this means the password must be at least four characters long
